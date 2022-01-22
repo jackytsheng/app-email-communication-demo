@@ -1,0 +1,23 @@
+.container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 500px;
+  color: black;
+  box-shadow: 5px 5px 12px -7px #000000;
+}
+
+.message-box {
+  flex: 1;
+}
